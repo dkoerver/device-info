@@ -2,7 +2,7 @@ extern crate battery;
 
 use serde::{Serialize};
 use battery::units::ratio::percent;
-use self::battery::units::energy::watt_hour;
+use battery::units::energy::watt_hour;
 
 #[derive(Serialize, Debug)]
 pub struct BatteryInfo {
